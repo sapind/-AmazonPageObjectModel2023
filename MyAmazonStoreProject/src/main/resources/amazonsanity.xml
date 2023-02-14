@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="MyAmazonStoreProject Automation Test Suite">
+ <listeners>
+		<listener 
+		class-name="com.qa.amazon.ExtentReportListener.ExtentReporterNG" />
+	</listeners>
+  <test name="Amazon SanityTest Cases">
+ 
+    <classes>
+     
+       
+        <class name="com.qa.amazon.testcases.PaymentPageTest"/>
+       
+    
+    
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,893 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-MyAmazonStoreProject_Automation_Test_Suite" class="navigator-link">
+              <span class="suite-name border-passed">MyAmazonStoreProject Automation Test Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-MyAmazonStoreProject_Automation_Test_Suite" class="navigator-link ">
+                    <span>C:\QA\Selenium_workspace\MyAmazonStoreProject\src\main\resources\amazonregression.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-MyAmazonStoreProject_Automation_Test_Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-MyAmazonStoreProject_Automation_Test_Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-MyAmazonStoreProject_Automation_Test_Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-MyAmazonStoreProject_Automation_Test_Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-MyAmazonStoreProject_Automation_Test_Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-MyAmazonStoreProject_Automation_Test_Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">22 methods,   22 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-MyAmazonStoreProject_Automation_Test_Suite" class="hide-methods passed suite-MyAmazonStoreProject_Automation_Test_Suite"> (hide)</a> <!-- hide-methods passed suite-MyAmazonStoreProject_Automation_Test_Suite -->
+                      <a href="#" panel-name="suite-MyAmazonStoreProject_Automation_Test_Suite" class="show-methods passed suite-MyAmazonStoreProject_Automation_Test_Suite"> (show)</a> <!-- show-methods passed suite-MyAmazonStoreProject_Automation_Test_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-MyAmazonStoreProject_Automation_Test_Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MyAmazonStoreProject_Automation_Test_Suite" title="com.qa.amazon.testcases.LoginPageTest" class="method navigator-link" hash-for-method="AmazonLogoTest">AmazonLogoTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MyAmazonStoreProject_Automation_Test_Suite" title="com.qa.amazon.testcases.HomePageTest" class="method navigator-link" hash-for-method="clickOnAccountListTest">clickOnAccountListTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MyAmazonStoreProject_Automation_Test_Suite" title="com.qa.amazon.testcases.AddItemToCartPageTest" class="method navigator-link" hash-for-method="clickOnAddToCartTest">clickOnAddToCartTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MyAmazonStoreProject_Automation_Test_Suite" title="com.qa.amazon.testcases.SearchPageTest" class="method navigator-link" hash-for-method="clickOnSelectItemTest">clickOnSelectItemTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MyAmazonStoreProject_Automation_Test_Suite" title="com.qa.amazon.testcases.CreateNewAccountPageTest" class="method navigator-link" hash-for-method="clickOnVerifyBtnTest">clickOnVerifyBtnTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MyAmazonStoreProject_Automation_Test_Suite" title="com.qa.amazon.testcases.PaymentPageTest" class="method navigator-link" hash-for-method="confirmAddressTest">confirmAddressTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MyAmazonStoreProject_Automation_Test_Suite" title="com.qa.amazon.testcases.CreateNewAccountPageTest" class="method navigator-link" hash-for-method="create">create</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MyAmazonStoreProject_Automation_Test_Suite" title="com.qa.amazon.testcases.LoginPageTest" class="method navigator-link" hash-for-method="loginPageTitleTest">loginPageTitleTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MyAmazonStoreProject_Automation_Test_Suite" title="com.qa.amazon.testcases.LoginPageTest" class="method navigator-link" hash-for-method="loginTest">loginTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MyAmazonStoreProject_Automation_Test_Suite" title="com.qa.amazon.testcases.SearchPageTest" class="method navigator-link" hash-for-method="searchField">searchField</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MyAmazonStoreProject_Automation_Test_Suite" title="com.qa.amazon.testcases.HomePageTest" class="method navigator-link" hash-for-method="searchItemTest">searchItemTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MyAmazonStoreProject_Automation_Test_Suite" title="com.qa.amazon.testcases.HomePageTest" class="method navigator-link" hash-for-method="validateAddressLinkTest">validateAddressLinkTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MyAmazonStoreProject_Automation_Test_Suite" title="com.qa.amazon.testcases.HomePageTest" class="method navigator-link" hash-for-method="validateCartTest">validateCartTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MyAmazonStoreProject_Automation_Test_Suite" title="com.qa.amazon.testcases.CreateNewAccountPageTest" class="method navigator-link" hash-for-method="validateRegistrationPageTitle">validateRegistrationPageTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MyAmazonStoreProject_Automation_Test_Suite" title="com.qa.amazon.testcases.HomePageTest" class="method navigator-link" hash-for-method="validateReturnOrderTest">validateReturnOrderTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MyAmazonStoreProject_Automation_Test_Suite" title="com.qa.amazon.testcases.HomePageTest" class="method navigator-link" hash-for-method="validateSearchBtnTest">validateSearchBtnTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MyAmazonStoreProject_Automation_Test_Suite" title="com.qa.amazon.testcases.HomePageTest" class="method navigator-link" hash-for-method="validateaccountListTest">validateaccountListTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MyAmazonStoreProject_Automation_Test_Suite" title="com.qa.amazon.testcases.HomePageTest" class="method navigator-link" hash-for-method="validatesearchboxTest">validatesearchboxTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MyAmazonStoreProject_Automation_Test_Suite" title="com.qa.amazon.testcases.LoginPageTest" class="method navigator-link" hash-for-method="verifyCreateNewAccountTest">verifyCreateNewAccountTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MyAmazonStoreProject_Automation_Test_Suite" title="com.qa.amazon.testcases.HomePageTest" class="method navigator-link" hash-for-method="verifyHomePageTitle">verifyHomePageTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MyAmazonStoreProject_Automation_Test_Suite" title="com.qa.amazon.testcases.SearchPageTest" class="method navigator-link" hash-for-method="verifySearchItem">verifySearchItem</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-MyAmazonStoreProject_Automation_Test_Suite" title="com.qa.amazon.testcases.HomePageTest" class="method navigator-link" hash-for-method="verifySearchTextBoxTest">verifySearchTextBoxTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-MyAmazonStoreProject_Automation_Test_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-MyAmazonStoreProject_Automation_Test_Suite" class="panel MyAmazonStoreProject_Automation_Test_Suite">
+          <div class="suite-MyAmazonStoreProject_Automation_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.qa.amazon.testcases.SearchPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickOnSelectItemTest">
+                  </a> <!-- clickOnSelectItemTest -->
+                  <span class="method-name">clickOnSelectItemTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchField">
+                  </a> <!-- searchField -->
+                  <span class="method-name">searchField</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySearchItem">
+                  </a> <!-- verifySearchItem -->
+                  <span class="method-name">verifySearchItem</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-MyAmazonStoreProject_Automation_Test_Suite-class-passed -->
+          <div class="suite-MyAmazonStoreProject_Automation_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.qa.amazon.testcases.CreateNewAccountPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickOnVerifyBtnTest">
+                  </a> <!-- clickOnVerifyBtnTest -->
+                  <span class="method-name">clickOnVerifyBtnTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="create">
+                  </a> <!-- create -->
+                  <span class="method-name">create</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateRegistrationPageTitle">
+                  </a> <!-- validateRegistrationPageTitle -->
+                  <span class="method-name">validateRegistrationPageTitle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-MyAmazonStoreProject_Automation_Test_Suite-class-passed -->
+          <div class="suite-MyAmazonStoreProject_Automation_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.qa.amazon.testcases.LoginPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="AmazonLogoTest">
+                  </a> <!-- AmazonLogoTest -->
+                  <span class="method-name">AmazonLogoTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginPageTitleTest">
+                  </a> <!-- loginPageTitleTest -->
+                  <span class="method-name">loginPageTitleTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTest">
+                  </a> <!-- loginTest -->
+                  <span class="method-name">loginTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCreateNewAccountTest">
+                  </a> <!-- verifyCreateNewAccountTest -->
+                  <span class="method-name">verifyCreateNewAccountTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-MyAmazonStoreProject_Automation_Test_Suite-class-passed -->
+          <div class="suite-MyAmazonStoreProject_Automation_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.qa.amazon.testcases.HomePageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickOnAccountListTest">
+                  </a> <!-- clickOnAccountListTest -->
+                  <span class="method-name">clickOnAccountListTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchItemTest">
+                  </a> <!-- searchItemTest -->
+                  <span class="method-name">searchItemTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateAddressLinkTest">
+                  </a> <!-- validateAddressLinkTest -->
+                  <span class="method-name">validateAddressLinkTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateCartTest">
+                  </a> <!-- validateCartTest -->
+                  <span class="method-name">validateCartTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateReturnOrderTest">
+                  </a> <!-- validateReturnOrderTest -->
+                  <span class="method-name">validateReturnOrderTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateSearchBtnTest">
+                  </a> <!-- validateSearchBtnTest -->
+                  <span class="method-name">validateSearchBtnTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateaccountListTest">
+                  </a> <!-- validateaccountListTest -->
+                  <span class="method-name">validateaccountListTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validatesearchboxTest">
+                  </a> <!-- validatesearchboxTest -->
+                  <span class="method-name">validatesearchboxTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyHomePageTitle">
+                  </a> <!-- verifyHomePageTitle -->
+                  <span class="method-name">verifyHomePageTitle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySearchTextBoxTest">
+                  </a> <!-- verifySearchTextBoxTest -->
+                  <span class="method-name">verifySearchTextBoxTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-MyAmazonStoreProject_Automation_Test_Suite-class-passed -->
+          <div class="suite-MyAmazonStoreProject_Automation_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.qa.amazon.testcases.AddItemToCartPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickOnAddToCartTest">
+                  </a> <!-- clickOnAddToCartTest -->
+                  <span class="method-name">clickOnAddToCartTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-MyAmazonStoreProject_Automation_Test_Suite-class-passed -->
+          <div class="suite-MyAmazonStoreProject_Automation_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.qa.amazon.testcases.PaymentPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="confirmAddressTest">
+                  </a> <!-- confirmAddressTest -->
+                  <span class="method-name">confirmAddressTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-MyAmazonStoreProject_Automation_Test_Suite-class-passed -->
+        </div> <!-- panel MyAmazonStoreProject_Automation_Test_Suite -->
+        <div panel-name="test-xml-MyAmazonStoreProject_Automation_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\QA\Selenium_workspace\MyAmazonStoreProject\src\main\resources\amazonregression.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;MyAmazonStoreProject Automation Test Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.qa.amazon.ExtentReportListener.ExtentReporterNG&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Amazon Shopping Test Cases&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.qa.amazon.testcases.LoginPageTest&quot;/&gt;
+      &lt;class name=&quot;com.qa.amazon.testcases.HomePageTest&quot;/&gt;
+      &lt;class name=&quot;com.qa.amazon.testcases.SearchPageTest&quot;/&gt;
+      &lt;class name=&quot;com.qa.amazon.testcases.AddItemToCartPageTest&quot;/&gt;
+      &lt;class name=&quot;com.qa.amazon.testcases.PaymentPageTest&quot;/&gt;
+      &lt;class name=&quot;com.qa.amazon.testcases.CreateNewAccountPageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Amazon Shopping Test Cases --&gt;
+&lt;/suite&gt; &lt;!-- MyAmazonStoreProject Automation Test Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-MyAmazonStoreProject_Automation_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for MyAmazonStoreProject Automation Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Amazon Shopping Test Cases (6 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-MyAmazonStoreProject_Automation_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for MyAmazonStoreProject Automation Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-MyAmazonStoreProject_Automation_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for MyAmazonStoreProject Automation Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_MyAmazonStoreProject_Automation_Test_Suite');
+function tableData_MyAmazonStoreProject_Automation_Test_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(22);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'clickOnAddToCartTest')
+data.setCell(0, 2, 'com.qa.amazon.testcases.AddItemToCartPageTest')
+data.setCell(0, 3, 5692);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'searchItemTest')
+data.setCell(1, 2, 'com.qa.amazon.testcases.HomePageTest')
+data.setCell(1, 3, 4809);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'clickOnSelectItemTest')
+data.setCell(2, 2, 'com.qa.amazon.testcases.SearchPageTest')
+data.setCell(2, 3, 4219);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'clickOnAccountListTest')
+data.setCell(3, 2, 'com.qa.amazon.testcases.HomePageTest')
+data.setCell(3, 3, 2894);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'validateAddressLinkTest')
+data.setCell(4, 2, 'com.qa.amazon.testcases.HomePageTest')
+data.setCell(4, 3, 2438);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'verifySearchTextBoxTest')
+data.setCell(5, 2, 'com.qa.amazon.testcases.HomePageTest')
+data.setCell(5, 3, 2208);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'validateSearchBtnTest')
+data.setCell(6, 2, 'com.qa.amazon.testcases.HomePageTest')
+data.setCell(6, 3, 2127);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'validateaccountListTest')
+data.setCell(7, 2, 'com.qa.amazon.testcases.HomePageTest')
+data.setCell(7, 3, 2019);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'validateCartTest')
+data.setCell(8, 2, 'com.qa.amazon.testcases.HomePageTest')
+data.setCell(8, 3, 1996);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'validatesearchboxTest')
+data.setCell(9, 2, 'com.qa.amazon.testcases.HomePageTest')
+data.setCell(9, 3, 1974);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'validateReturnOrderTest')
+data.setCell(10, 2, 'com.qa.amazon.testcases.HomePageTest')
+data.setCell(10, 3, 1958);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'loginTest')
+data.setCell(11, 2, 'com.qa.amazon.testcases.LoginPageTest')
+data.setCell(11, 3, 1352);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'create')
+data.setCell(12, 2, 'com.qa.amazon.testcases.CreateNewAccountPageTest')
+data.setCell(12, 3, 1032);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'verifyCreateNewAccountTest')
+data.setCell(13, 2, 'com.qa.amazon.testcases.LoginPageTest')
+data.setCell(13, 3, 511);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'clickOnVerifyBtnTest')
+data.setCell(14, 2, 'com.qa.amazon.testcases.CreateNewAccountPageTest')
+data.setCell(14, 3, 149);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'AmazonLogoTest')
+data.setCell(15, 2, 'com.qa.amazon.testcases.LoginPageTest')
+data.setCell(15, 3, 137);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'confirmAddressTest')
+data.setCell(16, 2, 'com.qa.amazon.testcases.PaymentPageTest')
+data.setCell(16, 3, 91);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'verifySearchItem')
+data.setCell(17, 2, 'com.qa.amazon.testcases.SearchPageTest')
+data.setCell(17, 3, 57);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'searchField')
+data.setCell(18, 2, 'com.qa.amazon.testcases.SearchPageTest')
+data.setCell(18, 3, 55);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'validateRegistrationPageTitle')
+data.setCell(19, 2, 'com.qa.amazon.testcases.CreateNewAccountPageTest')
+data.setCell(19, 3, 42);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'verifyHomePageTitle')
+data.setCell(20, 2, 'com.qa.amazon.testcases.HomePageTest')
+data.setCell(20, 3, 30);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'loginPageTitleTest')
+data.setCell(21, 2, 'com.qa.amazon.testcases.LoginPageTest')
+data.setCell(21, 3, 28);
+window.suiteTableData['MyAmazonStoreProject_Automation_Test_Suite']= { tableData: data, tableDiv: 'times-div-MyAmazonStoreProject_Automation_Test_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 35 seconds</span>
+              <div id="times-div-MyAmazonStoreProject_Automation_Test_Suite">
+              </div> <!-- times-div-MyAmazonStoreProject_Automation_Test_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-MyAmazonStoreProject_Automation_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for MyAmazonStoreProject Automation Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-MyAmazonStoreProject_Automation_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-MyAmazonStoreProject_Automation_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.amazon.testcases.LoginPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginPageTitleTest</span>
+                <span class="method-start">5246 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">5278 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">6202 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">AmazonLogoTest</span>
+                <span class="method-start">10276 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">10415 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">11469 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginTest</span>
+                <span class="method-start">15554 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">16909 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">17812 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyCreateNewAccountTest</span>
+                <span class="method-start">21890 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">22406 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.amazon.testcases.HomePageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">Setup</span>
+                <span class="method-start">23364 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyHomePageTitle</span>
+                <span class="method-start">30983 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">31014 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">Setup</span>
+                <span class="method-start">32063 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validatesearchboxTest</span>
+                <span class="method-start">37806 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">39781 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">Setup</span>
+                <span class="method-start">40668 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateSearchBtnTest</span>
+                <span class="method-start">45859 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">47994 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">Setup</span>
+                <span class="method-start">48891 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateaccountListTest</span>
+                <span class="method-start">54410 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">56432 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">Setup</span>
+                <span class="method-start">57292 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateReturnOrderTest</span>
+                <span class="method-start">62676 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">64635 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">Setup</span>
+                <span class="method-start">65546 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateCartTest</span>
+                <span class="method-start">71186 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">73182 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">Setup</span>
+                <span class="method-start">74284 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateAddressLinkTest</span>
+                <span class="method-start">80013 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">82452 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">Setup</span>
+                <span class="method-start">83654 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifySearchTextBoxTest</span>
+                <span class="method-start">88780 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">90991 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">Setup</span>
+                <span class="method-start">91927 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">searchItemTest</span>
+                <span class="method-start">97365 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">102175 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">Setup</span>
+                <span class="method-start">103190 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">clickOnAccountListTest</span>
+                <span class="method-start">109013 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">111908 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.amazon.testcases.SearchPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">Setup</span>
+                <span class="method-start">112866 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">searchField</span>
+                <span class="method-start">123438 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">123494 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">Setup</span>
+                <span class="method-start">124484 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifySearchItem</span>
+                <span class="method-start">134702 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">134760 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">Setup</span>
+                <span class="method-start">135764 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">clickOnSelectItemTest</span>
+                <span class="method-start">146479 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">150703 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.amazon.testcases.AddItemToCartPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">Setup</span>
+                <span class="method-start">151952 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">clickOnAddToCartTest</span>
+                <span class="method-start">166730 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">172423 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.amazon.testcases.PaymentPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">Setup</span>
+                <span class="method-start">173359 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">confirmAddressTest</span>
+                <span class="method-start">194817 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">194909 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.amazon.testcases.CreateNewAccountPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">195897 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateRegistrationPageTitle</span>
+                <span class="method-start">200872 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">200914 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">201822 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">create</span>
+                <span class="method-start">206502 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">207535 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">208659 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">clickOnVerifyBtnTest</span>
+                <span class="method-start">213608 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">213758 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
